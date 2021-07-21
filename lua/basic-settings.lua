@@ -4,6 +4,7 @@ local wo = vim.wo
 wo.nu = true
 wo.rnu = true
 wo.numberwidth = 1
+o.termguicolors = true
 
 o.expandtab = true
 o.tabstop = 4
@@ -24,9 +25,10 @@ vim.g.clipboard = {
 }
 
 vim.g.tokyonight_style = "storm"
-
+-- vim.g.tokyonight_transparent = true
 -- vim.g.tokyonight_italic_functions = true
+vim.g.tokyonight_enable_italic = true
 -- vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
--- vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
+vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
 
 vim.cmd[[colorscheme tokyonight]]

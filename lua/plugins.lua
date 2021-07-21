@@ -23,7 +23,11 @@ plug { 'savq/paq-nvim', opt = true }
 plug 'tpope/vim-commentary'
 plug 'scrooloose/nerdtree'
 
+plug 'norcalli/nvim-colorizer.lua'
+
 plug 'folke/tokyonight.nvim'
+plug 'nvim-treesitter/nvim-treesitter'
+plug 'matze/vim-move'
 
 require('paq-nvim').install()
 require('paq-nvim').clean()
