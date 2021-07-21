@@ -22,3 +22,5 @@ vim.g.clipboard = {
     },
     cache_enabled = false
 }
+
+vim.cmd[[colorscheme tokyonight]]

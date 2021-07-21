@@ -23,4 +23,7 @@ plug { 'savq/paq-nvim', opt = true }
 plug 'tpope/vim-commentary'
 plug 'scrooloose/nerdtree'
 
+plug 'folke/tokyonight.nvim'
 
+require('paq-nvim').install()
+require('paq-nvim').clean()
