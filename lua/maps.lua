@@ -12,3 +12,5 @@ cmd 'cnoreabbrev find NERDTreeFind'
 mapper( "n", "<Leader>w", ":w<CR>" )
 mapper( "n", "<Leader>q", ":q<CR>" )
 mapper( "n", "<Leader>nt", ":NERDTreeFind<CR>" )
+mapper( "n", "<c-h>", "<c-w><c-h>")
+mapper( "n", "<c-l>", "<c-w><c-l>" )

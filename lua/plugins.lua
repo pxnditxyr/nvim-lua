@@ -20,14 +20,35 @@ plug { 'savq/paq-nvim', opt = true }
 
 -- Plugin list
 
+-- comentaries
 plug 'tpope/vim-commentary'
+
+-- nerdtree
 plug 'scrooloose/nerdtree'
 
+-- icons
+plug 'ryanoasis/vim-devicons'
+plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+-- colors in hex color
 plug 'norcalli/nvim-colorizer.lua'
 
+-- Themes
 plug 'folke/tokyonight.nvim'
 plug 'nvim-treesitter/nvim-treesitter'
+
+-- Move lines
 plug 'matze/vim-move'
+
+-- For auto pair brakets
+plug 'jiangmiao/auto-pairs'
+plug 'alvan/vim-closetag'
+plug 'tpope/vim-surround'
+
+-- plug 'LunarWatcher/auto-pairs' -- error to delete left 
 
 require('paq-nvim').install()
 require('paq-nvim').clean()
+
+
+
