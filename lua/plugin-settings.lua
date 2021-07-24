@@ -20,7 +20,9 @@ cmd 'let NERDTreeDirArrows=1'
 cmd 'let NERDTreeShowLineNumbers=1'
 cmd "let NERDTreeMapOpenInTab='\t'"
 
-vim.g.closetag_filenames = "*.html,*.js,*.jsx,*.ts,*.tsx"
+cmd "let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'"
+
+-- vim.g.closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
 
 
 require'nvim-treesitter.configs'.setup {
